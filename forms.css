@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&display=swap');
+.formsbody{
+   /* background-color: rgba(207, 241, 240,0.5);*/
+  
+   background-image: url(Images/background.webp);
+  
+  }
+ .btn_color{
+  background-color: #0a3d62;
+ }
+ .btn_color:hover{
+  background-color: #06283D;
+
+ }
+.formshead{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-bottom: 0.5rem ;
+    margin-top: 1rem;
+    color: #0a3d62;
+}
+
+.newshead{
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bolder;
+  margin-bottom: 0.5rem ;
+  margin-top: 1rem;
+  color: #0a3d62;
+}
+.newsparagraph{
+  text-align: justify;
+}
+.text_align{
+  text-align: justify;
+}
+.label_style{
+  font-family: 'Poppins', sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  color: #0a3d62;
+}
+.btn_color a{
+  color: white;
+}
+.btn_color a:hover{
+  color: white;
+  
+}
+td{
+  vertical-align: middle;
+}
+hr.new1{
+  border-radius: 2px solid gray;
+  
+}
+
+.edit{
+ 
+  color: rgb(24, 153, 24);
+  font-weight: bold;
+  text-decoration: none;
+}
+.delete{
+  color: rgb(240, 23, 23);
+  font-weight: bold;
+  text-decoration: none;
+}
+.table_body{
+  padding-top: 2rem;
+}
+.table_style{
+  background-color: #0a3d62;
+  color: white;
+}
+.margin_top{
+  margin-top: 100px;
+}

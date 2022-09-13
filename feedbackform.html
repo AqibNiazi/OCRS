@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script src="https://kit.fontawesome.com/10673c0bee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="forms.css">
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@600&display=swap');
+
+    </style>
+</head>
+<body class="formsbody">
+    <div class="container">
+        <div class=" text-center my-3">
+            <h2 class="py-3 formshead fw-bold">Give Your Feedback Here</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-6 wow zoomInRight">
+                <img src="feedback_1.jpg" class="img-fluid" alt="">
+        </div>
+            <!-- form section -->
+            <div class="col-md-6 col-sm-6  wow zoomInLeft">
+                <form>
+                   
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" class="form-control" aria-describedby="emailHint"
+                            placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" style="text-align: center;">Email</label>
+                         <input id="email" type="email" class="form-control" aria-describedby="emailHint"
+                             placeholder="Enter email Address">
+                        
+                     </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="6" type="text" class="form-control"
+                            aria-describedby="emailHint" placeholder="Enter Message"></textarea>
+                    </div>
+                    <br>
+                    <button class="btn btn-block btn-primary">Submit Feedback</button><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

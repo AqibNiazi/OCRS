@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Header css */
+.navbar{
+    background-color: #06283D;
+    color: white;
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+    
+}
+.navbar .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    color:white;
+}
+.navbar .navbar-brand:hover{
+    color: #A5BECC;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0.7rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+    color: white;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    background-color: #A5BECC;
+    color: #0a3d62;
+}
+.navbar-expand-lg .navbar-nav .nav-link:active{
+   
+    color:white;
+}
+.navbar-nav button{
+    padding:1.2rem 0;
+}
+.navbar-nav .btn{
+ padding: 0.7rem 1.5rem;   
+}
+.navbar-nav .btn:hover{
+background-color: #0a3d62;
+}
+/* Header Css Closed */
+
+/* News Card Css */
+.newscards{
+    border: 4px solid rgba(145, 141, 141,0.7);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.carddate{
+    color: blue;
+    font-size: 1rem;
+}
+.newscards:hover{
+    border: 4px solid rgb(45, 45, 49);
+    transition:ease-in;
+    transition-duration: 1s;
+}
+.newsheading{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #06283D;
+}
+.newscontent{
+    text-align: justify;
+    color: rgb(66, 65, 65);
+     text-overflow: ellipsis; 
+    overflow: hidden; 
+}
+.desc{
+   font-size: 1.5rem;
+   font-weight: bolder;
+   color: #06283D;
+}
+
+/* view All button Css start */
+.viewall{
+    padding: 0.7rem 1.5rem;
+}
+.viewall a{
+    text-decoration: none;
+    color: white;
+}
+/* view All button Css Closed */
+/* Read more button Css */
+.readmore a{
+    text-decoration: none;
+    color: white;
+}
+/* footer Css */
+#footer{
+    background-color: rgb(72, 91, 197);
+}
+
+#footer a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Missing Person Css */
+.li_style{
+    list-style-image: url(Images/arrowicon.png);
+    list-style-position: inside;
+    font-size: large;
+}
+.li_style_1{
+    list-style-type: none;
+   
+    font-size: large;
+    font-weight: 900;
+    color: #0a3d62;
+}
+
+.li_style a{
+text-decoration: none;
+font-size: larger;
+font-family: 'Poppins';
+font-weight: 700;
+margin-left: 4px;
+margin-top: -4px;
+
+}
+/* FAQ Css */
+
+.questions{
+    font-size: larger;
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-left: 2rem;
+    
+}
+.FAQ_paragraph{
+    margin: 0 2rem 0 2rem;
+    text-align: justify;
+}
+
+/* Image statistics of Crime Statistics */
+.image_statistics a img{
+    width: 420px;
+}
+
+.news a{
+text-decoration: none;
+font-size: medium;
+font-weight:500;
+}
+.paragraph p{
+    font-size: small;
+    margin-left: 2rem;
+}
